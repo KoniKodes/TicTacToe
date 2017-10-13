@@ -1,3 +1,3 @@
 Play Tropical-TicTacToe
-visit to play
+visit https://github.com/KoniKodes/TicTacToe to play
 
