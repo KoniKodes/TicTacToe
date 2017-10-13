@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Koni's Tic-Tac-Toe</title>
+<meta name="description" content="Tropical Tic Tac Toe"/>
+<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta charset="utf-8"/>
+<!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+ 
+   <audio id="playrsound" src=https://www.konikodes.com/fcc/img/playtime.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="cmpsound" src=https://www.konikodes.com/fcc/img/tieGame.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="tiesound" src=https://www.konikodes.com/fcc/img/cmpWins.mp3 type="audio/mgeg" autostart="false"></audio>  
+    
+</head>
+<body>
+<div id="wrap" class="container-fluid pull-center">
+<div class="hero text-center">
+<h1>Tropical Tic-Tac-Toe</h1>
+<div class="choice"><h2><strong>Choose Your Playing Piece</strong></h2></div>
+</div><!-- hero -->
+<div id="columnContent" class="container-fluid pull-center text-center">
+<div id="marker" class="pull-center">
+<div class="pl">
+<img class="img-responsive" src="https://www.konikodes.com/fcc/img/plumeria.png" alt="plumeria flower">
+Plumeria
+</div><!-- pl -->
+<div class="bp"><img class="img-responsive" src="https://www.konikodes.com/fcc/img/bird.png" alt="bird of paradise">
+Bird of Paradise</div><!-- bip -->
+
+</div><!-- marker --><br/>
+
+<div id="messages"><h3>
+<div id="msg"></div>
+<div id="msg1a"></div>
+<div id="msg1"></div>
+</h3></div>
+   <div id="board">
+
+   <div class="row">
+   <div id = "0" class = "space bottom right col-xs-4"></div>
+   <div id = "1" class = "space bottom right col-xs-4"></div>
+   <div id = "2" class = "space bottom col-xs-4"></div>
+   </div>
+
+ 
+   <div class="row">
+   <div id = "3" class = "space bottom right col-xs-4"></div>
+   <div id = "4" class = "space bottom right col-xs-4"></div>
+   <div id = "5" class = "space bottom col-xs-4"></div>
+   </div>
+   
+   <div class="row">
+   <div id = "6" class = "space right col-xs-4"></div>
+   <div id = "7" class = "space right col-xs-4"></div>
+   <div id = "8" class = "space col-xs-4"></div>
+   </div>
+ 
+   </div><!-- board -->
+<div id="msg2"></div>
+</div><!-- columnContent -->
+
+</div><!-- Wrap -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+	 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  	 <script type="text/javascript" src="js/script.js"></script> 
+
+</body>
+</html>
