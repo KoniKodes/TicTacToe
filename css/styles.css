@@ -7,7 +7,7 @@ body{
 	font-family:Georgia, serif;	
 	font-size: 16px;
 	color:#fbf2ea;	
-	background:url(https://www.konikodes.com/fcc/img/waterback.png) no-repeat center center;
+	background:url(https://www.konikodes.com/fcc/img/waterback.jpg) no-repeat center center;
     position: fixed;
 	background-attachment: fixed;
     background-size:cover;
@@ -113,7 +113,30 @@ h3{
 .hilite {
     background-color: #94b5ed;
 }
-
+#ftr {
+   display: inline;
+   width:70%;
+   color:#1e8895;
+   text-decoration: none;
+   margin:20px auto;
+}
+.prt a{
+   display:inline;
+   color:#fff;
+   text-decoration:none;
+   margin-left:10px;
+}
+.pwrd a {
+   display:inline;
+   text-decoration:none;
+   color:#fff;   
+   margin-right: 10px;
+}
+.prt img, .pwrd img{
+   width:30px;
+   height:30px;
+   border: none;
+}
 @media only screen and (min-width:361px) and (max-width:640px){
 body {
 	width:100%;
